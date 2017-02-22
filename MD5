@@ -1,5 +1,5 @@
-ecce7f72e2819b437160b1e52bcf70b2 *DESCRIPTION
-2bf0d9327e7af2f1855f9c0dd3ec8052 *NAMESPACE
+84d4a390de494625402eba055862f4bc *DESCRIPTION
+5ac539b9eaf456349f915424fd1ec645 *NAMESPACE
 48da389cc99c132dbbf791447475f555 *R/formulae.R
 45a76e7b281f65e8d3ea2ebe0bf29c17 *R/locator.R
 ab36629015a269503006ebb7b45f78ad *R/primefactors.R
@@ -10,15 +10,15 @@ e167b5360b4d4b0e569ad16bb0ee5955 *R/utilmatrix.R
 61dfab95b18e2c29dbe25ab48cf6f4e6 *R/utiloptim.R
 30029ef89a4bc3aabc7e16c862758ee9 *R/utilseq.R
 c916661a60b7beb84502b7b6227ab273 *R/utiltext.R
-6f9143cda0ef9eb43ed1df98a4878798 *R/xycircle.R
+6ca20f34897695b2d3b9b5cc449ce367 *R/xycircle.R
 9fbe8ef90780b71d8a72ca270e6b649e *R/xypolygon.R
-8c733d44136579e0cad878b4d3a63f83 *R/xysegment.R
-a3cd3930a40a22bb66e9293bbb5347a2 *README.md
+c2ed95ba6c49f79c4748cbe4332feff7 *R/xysegment.R
 0c11e69f495fa53d182d3094d84ec3e2 *man/articlebeforenumber.Rd
 1c2612c451d7c808eb03c574f17cb36a *man/cat.factor.Rd
 743ff83b879b31b961d86fda75891cf7 *man/check.1.integer.Rd
 45e23ead6342e7dbbae73ee6955d5eac *man/check.named.vector.Rd
-15f14a0fdadd19b5eecb6368298b0ded *man/check.nvector.Rd
+150d9ed940337f5a0459e22e086ef5a4 *man/check.nmatrix.Rd
+55bd824bcd6953c9525d1bc1ffac4918 *man/check.nvector.Rd
 0c1ca20a2d58ef5fed14476580159e17 *man/check.range.Rd
 39c227b91e4fd4e2e551872f8badb6c2 *man/commasep.Rd
 ed75ba27cff27d36ba6d5aa20595acca *man/do.call.matched.Rd
@@ -29,10 +29,10 @@ e410bcae4113c62d2e78d2e9b0fc9c7b *man/ifelseAB.Rd
 3d0f1e38d2215913c33112a50c0aa225 *man/optimizeWithTrace.Rd
 30afc78c74fd7b3dffe4d83b61e3174b *man/ordinal.Rd
 ab2589bfd6de3acb12001c1c85b6aa55 *man/paren.Rd
-1e9af4a217768315a7d9a8c90833bac2 *man/primefactors.Rd
+cb121d5caa9f123a43d5a238c816e322 *man/primefactors.Rd
 912a6809ce279e63cef321a62a7453c7 *man/resolve.defaults.Rd
 777dc7f9df370468156fd7c9deea2d6a *man/revcumsum.Rd
-cf5a2e963240923464e4a8c9e21add30 *man/spatstat.utils-internal.Rd
+58b3078f92bb0811f667e24a54e4d799 *man/spatstat.utils-internal.Rd
 7d9c345f637717be85ab5b22652fada5 *man/spatstat.utils-package.Rd
 57a5190c70cfcd77c8e154e21cac0223 *man/spatstatLocator.Rd
 ab7258a3b52edb9dc0be7166d511d812 *man/splat.Rd
@@ -50,3 +50,5 @@ f8e6302140d1ee2c3e2185a32b2bddac *src/inxyp.c
 c7cb679d7a7d2e5fe33b2a66a129ee09 *src/primefax.c
 2cfb516df7ad5fad2459cd257c6b2eeb *src/proto.h
 3597e6c576823a63c3bd94e4c0b3eef9 *src/revcum.c
+6b6417406b709d2d545596fbedbd9252 *tests/numerical.R
+91e31de1f0a6229db0239e6c6f373582 *tests/segments.R

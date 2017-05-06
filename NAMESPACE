@@ -12,11 +12,16 @@ import(stats,graphics,grDevices,utils,methods)
 #      (native routines are now registered in init.c)
 # .................................................. 
 
-useDynLib(spatstat.utils, .registration=TRUE)
+useDynLib(spatstat.utils, .registration=TRUE, .fixes="C_")
 
 # .................................................. 
 # Automatically-generated list of documented objects 
-# .................................................. 
+# ..................................................
+
+export("matchIntegerDataFrames")
+export("lhs.of.formula<-")
+export("rhs.of.formula<-")
+
 export("adjustthinrange")
 export("apply23sum")
 export("Area.xypolygon")       

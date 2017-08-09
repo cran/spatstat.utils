@@ -1,6 +1,6 @@
-3bf8c49b31ddea62fe43da926956e34a *DESCRIPTION
-c03e77b9d37f353425139ffe10f0194d *NAMESPACE
-97988c5fa45a20b4c3b5e6924ee2d006 *R/formulae.R
+dc76981f156fe6e10a46af4def640de0 *DESCRIPTION
+56c024709d12aa75f0f6057b5352b033 *NAMESPACE
+81a0013c01515a69d9c2345e2aa799c9 *R/formulae.R
 45a76e7b281f65e8d3ea2ebe0bf29c17 *R/locator.R
 fc4f08d1f8aca7ec08bca87a6293f977 *R/primefactors.R
 f8ef809caaa54f24863ca5c670e746e3 *R/resolve.defaults.R
@@ -9,12 +9,12 @@ dee0e2fd5e7ffd4c26e9df03c240f059 *R/utilarg.R
 fa9f66757b4edab07677672cd52e92b9 *R/utilindex.R
 e167b5360b4d4b0e569ad16bb0ee5955 *R/utilmatrix.R
 61dfab95b18e2c29dbe25ab48cf6f4e6 *R/utiloptim.R
-2dcd5fcb692c42d836565bf5cc5b3e35 *R/utilseq.R
+ef8af43f877a3d48c4ac044becda855f *R/utilseq.R
 3d57f5cead75a89fa4b55cb896e2b68a *R/utiltext.R
 3715ef2a8ce85d8caf1c886616e8882a *R/xycircle.R
 f3297f80813c7b1694bafead35972012 *R/xypolygon.R
 c178f8dd4f7476186c33de119f4ffb87 *R/xysegment.R
-898e8b478b8f6ef448944c626bc84da2 *inst/doc/packagesizes.txt
+3dc3ea12d3871d7f48f4170e860d3b39 *inst/doc/packagesizes.txt
 0c11e69f495fa53d182d3094d84ec3e2 *man/articlebeforenumber.Rd
 1c2612c451d7c808eb03c574f17cb36a *man/cat.factor.Rd
 743ff83b879b31b961d86fda75891cf7 *man/check.1.integer.Rd
@@ -36,7 +36,7 @@ cb121d5caa9f123a43d5a238c816e322 *man/primefactors.Rd
 912a6809ce279e63cef321a62a7453c7 *man/resolve.defaults.Rd
 777dc7f9df370468156fd7c9deea2d6a *man/revcumsum.Rd
 6a72c33940fa00538b191d17f37172b0 *man/simplenumber.Rd
-d0784ea80fa4903928ea1fba7a149099 *man/spatstat.utils-internal.Rd
+968b84c1c593c5f13a6e2a4681f63805 *man/spatstat.utils-internal.Rd
 7d9c345f637717be85ab5b22652fada5 *man/spatstat.utils-package.Rd
 57a5190c70cfcd77c8e154e21cac0223 *man/spatstatLocator.Rd
 ab7258a3b52edb9dc0be7166d511d812 *man/splat.Rd
@@ -54,7 +54,7 @@ a6543c427067f6d163c65e6132c0ca43 *src/matchindices.c
 12c672c622be0ab2eed99c9e86de83b6 *src/ply.c
 62033117b1f5209472467cf9a80cd74c *src/ply.h
 c7cb679d7a7d2e5fe33b2a66a129ee09 *src/primefax.c
-10da4de640316db16c95328afa51b6bd *src/proto.h
+178f74ee02d5a6fb89aaa846785e6f36 *src/proto.h
 3597e6c576823a63c3bd94e4c0b3eef9 *src/revcum.c
 b4fca8cfc0c31d47078dd130ca8323c9 *tests/numerical.R
 91e31de1f0a6229db0239e6c6f373582 *tests/segments.R

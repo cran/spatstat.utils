@@ -1,7 +1,7 @@
 #
 #   resolve.defaults.R
 #
-#  $Revision: 1.32 $ $Date: 2017/01/02 04:48:09 $
+#  $Revision: 1.34 $ $Date: 2017/08/23 06:52:21 $
 #
 # Resolve conflicts between several sets of defaults
 # Usage:
@@ -126,7 +126,7 @@ graphicsPars <- local({
     list(plot = PlotArgs,
          image = c(
            "main", "asp", "sub", "axes", "ann",
-           "xlim", "ylim",
+           "xlim", "ylim", "zlim",
            "box",  # note 'box' is not an argument of image.default
            "cex", "font", 
            "cex.axis", "cex.lab", "cex.main", "cex.sub",
@@ -140,7 +140,7 @@ graphicsPars <- local({
            "font.axis", "font.lab",
            "mgp", "xaxp", "yaxp", "tck", "tcl", "las", "fg", "xpd"),
          owin = c(
-           "sub",
+           "main", "sub",
            "xlim", "ylim",
            "cex", "font", "col",
            "border", "box", 

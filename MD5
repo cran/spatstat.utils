@@ -1,9 +1,9 @@
-dc76981f156fe6e10a46af4def640de0 *DESCRIPTION
+413578ab925d6c804eede2bf012e9ec5 *DESCRIPTION
 56c024709d12aa75f0f6057b5352b033 *NAMESPACE
 81a0013c01515a69d9c2345e2aa799c9 *R/formulae.R
 45a76e7b281f65e8d3ea2ebe0bf29c17 *R/locator.R
 fc4f08d1f8aca7ec08bca87a6293f977 *R/primefactors.R
-f8ef809caaa54f24863ca5c670e746e3 *R/resolve.defaults.R
+1a89800fc6dbc450a53432f8c73d6598 *R/resolve.defaults.R
 5442cdc8912d6e43991f00da76ea1078 *R/tapplysum.R
 dee0e2fd5e7ffd4c26e9df03c240f059 *R/utilarg.R
 fa9f66757b4edab07677672cd52e92b9 *R/utilindex.R
@@ -14,7 +14,7 @@ ef8af43f877a3d48c4ac044becda855f *R/utilseq.R
 3715ef2a8ce85d8caf1c886616e8882a *R/xycircle.R
 f3297f80813c7b1694bafead35972012 *R/xypolygon.R
 c178f8dd4f7476186c33de119f4ffb87 *R/xysegment.R
-3dc3ea12d3871d7f48f4170e860d3b39 *inst/doc/packagesizes.txt
+bae671fd7b661f43af4053eb4339bf63 *inst/doc/packagesizes.txt
 0c11e69f495fa53d182d3094d84ec3e2 *man/articlebeforenumber.Rd
 1c2612c451d7c808eb03c574f17cb36a *man/cat.factor.Rd
 743ff83b879b31b961d86fda75891cf7 *man/check.1.integer.Rd

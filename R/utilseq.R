@@ -3,7 +3,7 @@
 #'
 #'  Utilities for sequences, vectors, ranges of values
 #'
-#'       $Revision: 1.5 $ $Date: 2018/01/23 03:15:36 $
+#'       $Revision: 1.9 $ $Date: 2018/09/28 05:54:57 $
 #'
 
 dropifsingle <- function(x) if(length(x) == 1) x[[1L]] else x
@@ -15,14 +15,19 @@ fave.order <- function(x) { sort.list(x, method="quick", na.last=NA) }
 
 # order statistic (for use in lapply calls) 
 orderstats <- function(x, k, decreasing=FALSE) {
-  if(decreasing) sort(x, decreasing=TRUE, na.last=TRUE)[k] else sort(x)[k]
+  if(decreasing) k <- length(x) + 1L - k
+  sort(x, na.last=!decreasing, partial=k)[k]
 }
 
-# which value is k-th smallest
+# ranks (for use in lapply calls) 
 orderwhich <- function(x, k, decreasing=FALSE) {
-  if(decreasing) order(x, decreasing=TRUE, na.last=TRUE)[k] else order(x)[k]
+  sort.int(x, decreasing=decreasing, method="quick", na.last=NA,
+            index.return=TRUE)$ix[k]
 }
 
+## faster than sort(unique(x)) for numeric
+
+sortunique <- function(x) { rle(sort(x))$values }
 
 ## ................ reverse cumulative sum .....................
 

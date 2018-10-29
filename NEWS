@@ -1,4 +1,31 @@
 
+        CHANGES IN spatstat.utils VERSION 1.12-0
+
+NEW FUNCTIONS
+
+    o percentage
+    Programmer's utility to convert a number to a percentage.
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o queueSpatstatLocator
+    Handles any data acceptable to xy.coords()
+    
+        CHANGES IN spatstat.utils VERSION 1.11-0
+
+NEW FUNCTIONS
+
+    o queueSpatstatLocator
+    Add (x,y) coordinate pairs to a queue
+    that can be accessed by 'spatstatLocator'.
+    
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o spatstatLocator
+    Now works in non-interactive sessions,
+    returning previously-queued coordinates,
+    for use in software testing.
+
         CHANGES IN spatstat.utils VERSION 1.10-0
 
 SIGNIFICANT USER-VISIBLE CHANGES

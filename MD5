@@ -1,4 +1,4 @@
-243a754e76eb2c08af1d620679c02c4e *DESCRIPTION
+d54d37211a32fccbd1b9b9937926ad93 *DESCRIPTION
 abdb8cbab845e471552197b7556ccf28 *NAMESPACE
 11c4cb61a04d1f37594089f7f84fb68d *NEWS
 81a0013c01515a69d9c2345e2aa799c9 *R/formulae.R
@@ -10,12 +10,12 @@ ed4d8b79b10809c53f082d33baedad8a *R/utilarg.R
 fa9f66757b4edab07677672cd52e92b9 *R/utilindex.R
 e167b5360b4d4b0e569ad16bb0ee5955 *R/utilmatrix.R
 61dfab95b18e2c29dbe25ab48cf6f4e6 *R/utiloptim.R
-ce90914567a3b48bdbc9760dc5cd1ccb *R/utilseq.R
+15ac6089ba7e2e1ed6e23c4651017c2a *R/utilseq.R
 9f7e5babb8a0a866373615f136087d72 *R/utiltext.R
 3715ef2a8ce85d8caf1c886616e8882a *R/xycircle.R
 f3297f80813c7b1694bafead35972012 *R/xypolygon.R
 c178f8dd4f7476186c33de119f4ffb87 *R/xysegment.R
-e16736488f6c6771faddd75826535a1c *inst/doc/packagesizes.txt
+a86b8846b7d195385d527ad0b4808d40 *inst/doc/packagesizes.txt
 0c11e69f495fa53d182d3094d84ec3e2 *man/articlebeforenumber.Rd
 1c2612c451d7c808eb03c574f17cb36a *man/cat.factor.Rd
 743ff83b879b31b961d86fda75891cf7 *man/check.1.integer.Rd
@@ -60,5 +60,5 @@ a6543c427067f6d163c65e6132c0ca43 *src/matchindices.c
 c7cb679d7a7d2e5fe33b2a66a129ee09 *src/primefax.c
 b0a3ca25739a7cb371aaff22e0723de1 *src/proto.h
 3597e6c576823a63c3bd94e4c0b3eef9 *src/revcum.c
-db6f3207b76ab7408ab6b5aef02353ee *tests/numerical.R
+bebd4027c5b80ac1fe8443842cdb443e *tests/numerical.R
 91e31de1f0a6229db0239e6c6f373582 *tests/segments.R

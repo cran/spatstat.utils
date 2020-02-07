@@ -1,4 +1,4 @@
-d50584111b8df333d6ce5478d6ebb478 *DESCRIPTION
+77caa1615e6b568ca5cb75fedab25d0a *DESCRIPTION
 2dc3803eab65a7c44b2184277d53577e *NAMESPACE
 70bc7965e5464e1ea2017edc2c016ff5 *NEWS
 52d9bc200e57d561a3ca2822753f3c81 *R/formulae.R
@@ -9,14 +9,14 @@ d50584111b8df333d6ce5478d6ebb478 *DESCRIPTION
 9d2c11b07aab387b84de66b965c2c983 *R/tapplysum.R
 ed4d8b79b10809c53f082d33baedad8a *R/utilarg.R
 fa9f66757b4edab07677672cd52e92b9 *R/utilindex.R
-e167b5360b4d4b0e569ad16bb0ee5955 *R/utilmatrix.R
+7d5578f3b5e6b0275b3382dfbd80bb48 *R/utilmatrix.R
 61dfab95b18e2c29dbe25ab48cf6f4e6 *R/utiloptim.R
 15ac6089ba7e2e1ed6e23c4651017c2a *R/utilseq.R
-2d50dbd24b724248345f882a2496fcf1 *R/utiltext.R
+377245686b8f3d6ead7c514a53680ac9 *R/utiltext.R
 3715ef2a8ce85d8caf1c886616e8882a *R/xycircle.R
 f3297f80813c7b1694bafead35972012 *R/xypolygon.R
 c178f8dd4f7476186c33de119f4ffb87 *R/xysegment.R
-1c117fd1cbee1108c5f8361306a4a183 *inst/doc/packagesizes.txt
+653ef3d7044963ceb71f3d61ca23e733 *inst/doc/packagesizes.txt
 0c11e69f495fa53d182d3094d84ec3e2 *man/articlebeforenumber.Rd
 1c2612c451d7c808eb03c574f17cb36a *man/cat.factor.Rd
 743ff83b879b31b961d86fda75891cf7 *man/check.1.integer.Rd
@@ -64,3 +64,4 @@ b0a3ca25739a7cb371aaff22e0723de1 *src/proto.h
 a6a39598b4692608ebca99e797896c81 *src/revcum.c
 bebd4027c5b80ac1fe8443842cdb443e *tests/numerical.R
 91e31de1f0a6229db0239e6c6f373582 *tests/segments.R
+92e4363a4329949e993439ff16467fba *tests/tekst.R

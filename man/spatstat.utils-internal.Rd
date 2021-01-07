@@ -65,8 +65,6 @@
 \alias{NNdist2segments}
 \alias{numalign}
 \alias{nzpaste}
-\alias{orderstats}
-\alias{orderwhich}
 \alias{\%orifnull\%}  %DoNotExport
 %NAMESPACE export("%orifnull%")
 \alias{padtowidth}
@@ -79,7 +77,6 @@
 \alias{prolongseq}
 \alias{putSpatstatLocatorQueue}
 \alias{ratiotweak}
-\alias{romansort}
 \alias{samefunction}
 \alias{sensiblevarname}
 \alias{short.deparse}
@@ -173,8 +170,6 @@ niceround(x, m)
 NNdist2segments(xp, yp, x0, y0, x1, y1, bigvalue)
 numalign(i, nmax, zero)
 nzpaste(\dots, sep, collapse)
-orderstats(x, k, decreasing)
-orderwhich(x, k, decreasing)
 a \%orifnull\% b
 padtowidth(a, b, justify)
 passthrough(.Fun, \dots, .Fname)
@@ -186,7 +181,6 @@ prettyinside(x, \dots)
 prolongseq(x, newrange, step)
 putSpatstatLocatorQueue(x)
 ratiotweak(a, b, overzero, zerozero)
-romansort(x)
 samefunction(f, g)
 sensiblevarname(guess, fallback, maxlen)
 short.deparse(x, maxlen)

@@ -1,6 +1,6 @@
-4f6446ae7b95577150ce69e871f900e6 *DESCRIPTION
-b901051f6b5c440f96018a643d286201 *NAMESPACE
-d52edaceb9b84dbb7bd73a9b7a1dc9b0 *NEWS
+7087774bdf1fc179b3a95ca3f6cc3402 *DESCRIPTION
+bf45eb6869aef8a64ab85424a709e2d2 *NAMESPACE
+7d95e42c405b2f9d50e4fc028ab5af7d *NEWS
 52d9bc200e57d561a3ca2822753f3c81 *R/formulae.R
 6043f72f83cafde41390bd83496dfab1 *R/locator.R
 63fddf62164c96550611b5c580db6a98 *R/primefactors.R
@@ -16,7 +16,7 @@ fa9f66757b4edab07677672cd52e92b9 *R/utilindex.R
 3715ef2a8ce85d8caf1c886616e8882a *R/xycircle.R
 f3297f80813c7b1694bafead35972012 *R/xypolygon.R
 c178f8dd4f7476186c33de119f4ffb87 *R/xysegment.R
-5e2d8bf5a687019f073ccc7dd7b514e9 *inst/doc/packagesizes.txt
+8067087741d9d4eb692e3d752605fde6 *inst/doc/packagesizes.txt
 0c11e69f495fa53d182d3094d84ec3e2 *man/articlebeforenumber.Rd
 1c2612c451d7c808eb03c574f17cb36a *man/cat.factor.Rd
 743ff83b879b31b961d86fda75891cf7 *man/check.1.integer.Rd
@@ -28,7 +28,7 @@ c178f8dd4f7476186c33de119f4ffb87 *R/xysegment.R
 39c227b91e4fd4e2e551872f8badb6c2 *man/commasep.Rd
 cad4e140f6242333f9ef0c0c6facd0ae *man/do.call.matched.Rd
 66bc65e8c95cb1afcffdb48082cff62a *man/do.call.without.Rd
-49dd46740ae040193c0e92c9e6d62519 *man/expand.polynom.Rd
+8ff47f84e6c087f764427bae38d1c90f *man/expand.polynom.Rd
 e410bcae4113c62d2e78d2e9b0fc9c7b *man/ifelseAB.Rd
 390c43841b92ba3277f25852a55d2cc9 *man/macros/defns.Rd
 e1b3328899cda3cac13bd40a1cc96bf3 *man/methods.xypolygon.Rd

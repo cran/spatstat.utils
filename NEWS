@@ -1,4 +1,25 @@
 
+        CHANGES IN spatstat.utils VERSION 2.3-0
+
+OVERVIEW
+
+    o Minor improvements and bug fixes.
+
+    o Some code accelerated.
+
+NEW FUNCTIONS
+
+    o which.min.fair, which.max.fair
+    Find the location of the minimum or maximum,
+    and if there are multiple minima or maxima,
+    choose one of them at random.
+    
+BUG FIXES
+
+    o tapplysum
+    Crashed if do.names=TRUE when 'flist' contained only one factor.
+    Fixed.
+
         CHANGES IN spatstat.utils VERSION 2.2-0
 
 OVERVIEW

@@ -3,7 +3,7 @@
 #'
 #'   Utilities for text output, etc
 #'
-#'   $Revision: 1.8 $ $Date: 2020/12/19 08:45:05 $
+#'   $Revision: 1.10 $ $Date: 2021/08/26 10:24:47 $
 #'
 
 # text magic
@@ -306,15 +306,19 @@ flat.deparse <- function(x) {
 }
 
 good.names <- function(nama, defaults, suffices) {
-  # ensure sensible, unique names 
-  stopifnot(is.character(defaults))
-  if(!missing(suffices))
-    defaults <- paste(defaults, suffices, sep="")
+  ## ensure sensible, unique names
   result <- nama
-  if(is.null(result))
-    result <- defaults
-  else if(any(blank <- !nzchar(result)))
-    result[blank] <- defaults[blank]
+  if(length(result) == 0 || !all(nzchar(result))) {
+    ## compute defaults
+    stopifnot(is.character(defaults))
+    if(!missing(suffices))
+      defaults <- paste(defaults, suffices, sep="")
+    ## apply defaults
+    if(is.null(result))
+      result <- defaults
+    else if(any(blank <- !nzchar(result)))
+      result[blank] <- defaults[blank]
+  }
   if(anyDuplicated(result))
     result <- make.names(result, unique=TRUE)
   return(result)

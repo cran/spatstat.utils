@@ -9,6 +9,7 @@
 \alias{blockdiagarray}
 \alias{blockdiagmatrix}
 \alias{check.finite}
+\alias{check.satisfies}
 \alias{choptext}
 \alias{choptextline}
 \alias{complaining}
@@ -29,7 +30,6 @@
 \alias{exhibitStringList}
 \alias{explain.ifnot}
 \alias{fakecallstring}
-\alias{fastFindInterval}
 \alias{fave.order}
 \alias{fillseq}
 \alias{findfirstfactor}
@@ -38,7 +38,6 @@
 \alias{fontify}
 \alias{forbidNA}
 \alias{getSpatstatLocatorQueue}
-\alias{geomseq}
 \alias{getdataobjects}
 \alias{good.names}
 \alias{graphicsPars}            
@@ -65,8 +64,6 @@
 \alias{NNdist2segments}
 \alias{numalign}
 \alias{nzpaste}
-\alias{\%orifnull\%}  %DoNotExport
-%NAMESPACE export("%orifnull%")
 \alias{padtowidth}
 \alias{passthrough}
 \alias{paste.expr}
@@ -121,7 +118,8 @@ assignDFcolumn(x, name, value, \dots)
 badprobability(x, NAvalue)
 blockdiagarray(\dots)
 blockdiagmatrix(\dots)
-check.finite(x, context, xname, fatal, usergiven)
+check.finite(x, context, xname, fatal, usergiven, warn)
+check.satisfies(cond, xname, should, context, fatal, warn)
 choptext(\dots, prefix, indent)
 choptextline(st, w, prefix, indent)
 complaining(whinge, fatal, value)
@@ -142,16 +140,14 @@ exhibitStringList(prefix, strings)
 exceedsMaxArraySize(\dots)
 explain.ifnot(expr, context)
 fakecallstring(fname, parlist)
-fastFindInterval(x, b, labels, reltol, dig.lab)
 fave.order(x)
 fillseq(x, step)
 findfirstfactor(x)
 firstfactor(x)
 flat.deparse(x)
 fontify(x, font)
-forbidNA(x, context, xname, fatal, usergiven)
+forbidNA(x, context, xname, fatal, usergiven, warn)
 getSpatstatLocatorQueue()
-geomseq(from, to, length.out)
 getdataobjects(nama, envir, datalist, fatal)
 good.names(nama, defaults, suffices)
 graphicsPars(key)
@@ -178,7 +174,6 @@ niceround(x, m)
 NNdist2segments(xp, yp, x0, y0, x1, y1, bigvalue, wantindex)
 numalign(i, nmax, zero)
 nzpaste(\dots, sep, collapse)
-a \%orifnull\% b
 padtowidth(a, b, justify)
 passthrough(.Fun, \dots, .Fname)
 paste.expr(x)

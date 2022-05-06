@@ -1,7 +1,7 @@
 #
 #      xysegment.S
 #
-#     $Revision: 1.20 $    $Date: 2021/05/20 09:10:00 $
+#     $Revision: 1.22 $    $Date: 2022/04/28 03:25:59 $
 #
 # Low level utilities for analytic geometry for line segments
 #
@@ -152,11 +152,11 @@ distppll <- function(p, l, mintype=0,
                       epsilon=as.double(eps),
                       dist2=as.double(numeric(np * nl)))
            d <- matrix(sqrt(temp$dist2), nrow=np, ncol=nl)
-           if(mintype == 2) {
+           if(mintype == 1) {
+             min.d <- apply(d, 1, min)
+           } else if(mintype == 2) {
              min.which <- apply(d, 1, which.min)
              min.d <- d[cbind(1:np, min.which)]
-           } else if (mintype == 1) {
-             min.d <- apply(d, 1, min)
            }
          })
   ###### end switch #####
@@ -171,8 +171,6 @@ distppll <- function(p, l, mintype=0,
 # (distance to) nearest segment 
 
 distppllmin <- function(p, l, big=NULL) {
-  np <- nrow(p)
-  nl <- nrow(l)
   if(is.null(big)) {
     xdif <- diff(range(c(p[,1],l[, c(1,3)])))
     ydif <- diff(range(c(p[,2],l[, c(2,4)])))

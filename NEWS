@@ -1,4 +1,30 @@
 
+        CHANGES IN spatstat.utils VERSION 2.3-1
+
+OVERVIEW
+
+    o Minor improvements and bug fixes.
+
+    o Some code now runs faster.
+
+    o More of the existing functions are documented.
+    
+NEW FUNCTIONS
+
+    o fastFindInterval
+    Faster alternative to 'findInterval' for equally-spaced intervals.
+
+    o geomseq
+    Make a geometric sequence.
+
+    o "%orifnull%"
+    Specify a value with a default.
+    
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o check.1.real, check.1.integer, check.1.string
+    New argument 'warn'.
+    
         CHANGES IN spatstat.utils VERSION 2.3-0
 
 OVERVIEW

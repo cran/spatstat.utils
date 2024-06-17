@@ -3,7 +3,7 @@
 #'
 #'   Utilities for checking/handling arguments
 #'
-#'  $Revision: 1.11 $  $Date: 2023/03/03 02:02:49 $
+#'  $Revision: 1.13 $  $Date: 2024/06/05 08:16:37 $
 #'
 
 "%orifnull%" <- function(a, b) {
@@ -171,7 +171,6 @@ check.named.thing <- function(x, nam, namopt=character(0), xtitle=NULL,
   return(whinge)
 }
 
-
 validposint <- function(n, caller, fatal=TRUE) {
   if(length(n) != 1 || n != round(n) || n <=0) {
     if(!fatal)
@@ -333,6 +332,24 @@ trap.extra.arguments <- function(..., .Context="", .Fatal=FALSE) {
   return(TRUE)
 }
 
+there.can.be.only.one <- function(..., .NeedOne=TRUE, .Fatal=TRUE) {
+  argh <- list(...)
+  given <- !sapply(argh, is.null)
+  ngiven <- sum(given)
+  if(.NeedOne && ngiven == 0) {
+    if(!.Fatal) return(FALSE)
+    nama <- sQuote(names(argh))
+    stop(paste("One of the arguments", commasep(nama, "or"), "is required"),
+         call.=FALSE)
+  }
+  if(ngiven > 1) {
+    if(!.Fatal) return(FALSE)
+    namesgiven <- sQuote(names(argh)[given])
+    stop(paste("The arguments", commasep(namesgiven), "are incompatible"),
+         call.=FALSE)
+  }
+  return(TRUE)
+}
 
 ## replace recognised keywords by other keywords
 mapstrings <- function(x, map=NULL) {

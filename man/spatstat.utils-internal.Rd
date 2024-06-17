@@ -1,5 +1,6 @@
 \name{spatstat.utils-internal} 
 \title{Internal Functions of spatstat.utils Package}
+\alias{spatstat.utils-internal}  %DoNotExport
 \alias{adjustthinrange}
 \alias{apply23sum}
 \alias{as2vector}
@@ -23,9 +24,7 @@
 \alias{dround}
 \alias{ensure2vector}
 \alias{ensure3Darray}
-\alias{equispaced}          
 \alias{eratosthenes}
-\alias{evenly.spaced}
 \alias{exceedsMaxArraySize}
 \alias{exhibitStringList}
 \alias{explain.ifnot}
@@ -82,6 +81,7 @@
 \alias{startinrange}
 \alias{strsplitretain}
 \alias{substringcount}
+\alias{there.can.be.only.one}
 \alias{there.is.no.try}
 \alias{trap.extra.arguments}
 \alias{truncline}
@@ -133,9 +133,7 @@ dropifsingle(x)
 dround(x)
 ensure2vector(x)
 ensure3Darray(x)
-equispaced(z, reltol)
 eratosthenes(nmax, startset)
-evenly.spaced(x, tol)
 exhibitStringList(prefix, strings)
 exceedsMaxArraySize(\dots)
 explain.ifnot(expr, context)
@@ -192,6 +190,7 @@ sortunique(x)
 startinrange(x0, dx, r)
 strsplitretain(x, split)
 substringcount(x,y)
+there.can.be.only.one(\dots, .NeedOne, .Fatal)
 there.is.no.try(\dots)
 trap.extra.arguments(\dots, .Context, .Fatal)
 truncline(x, nc)

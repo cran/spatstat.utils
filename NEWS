@@ -1,4 +1,26 @@
 
+        CHANGES IN spatstat.utils VERSION 3.1-0
+
+OVERVIEW
+
+    o Efficiency improvement for prime factorisation.
+
+    o spatstat.utils now requires R 3.5.0 or later.
+
+    o Bug fix
+    
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o primefactors, divisors, is.prime
+    Computation for large numbers accelerated.
+
+BUG FIXES
+
+    o xysegPcircle
+    Interpreted its arguments incorrectly,
+    and incorrectly gave the same result as 'xysegXcircle'.
+    Fixed.
+
         CHANGES IN spatstat.utils VERSION 3.0-5
 
 OVERVIEW

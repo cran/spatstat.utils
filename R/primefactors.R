@@ -1,7 +1,7 @@
 #
 #  primefactors.R
 #
-#  $Revision: 1.13 $   $Date: 2024/07/25 23:45:18 $
+#  $Revision: 1.16 $   $Date: 2025/01/19 05:11:27 $
 #
 
 ## Table of prime numbers is now in sysdata object 'Spatstat.PrimesTable'
@@ -33,7 +33,8 @@ primefactors <- function(n, method=c("C", "interpreted")) {
   check.1.integer(n)
   if(n <= 0) return(integer(0))
   method <- match.arg(method)
-  if(method == "C" && n > .Machine$integer.max)
+  MaxInt <- .Machine$integer.max
+  if(method == "C" && n > MaxInt)
     method <- "interpreted"
   switch(method,
          interpreted = {
@@ -49,7 +50,8 @@ primefactors <- function(n, method=c("C", "interpreted")) {
                ## reduce problem size
                primedivisors <- candidateprimes[divides]
                result <- sort(c(result, primedivisors))
-               n <- as.integer(n/prod(primedivisors))
+               n <- n/prod(primedivisors)
+               if(n <= MaxInt) n <- as.integer(n)
                prmax <- floor(sqrt(n))
                candidateprimes <- primedivisors
              }
@@ -129,3 +131,26 @@ divisors <- local({
 
   divisors
 })
+
+is.square <- function(n) {
+  check.1.integer(n)
+  if(n < 0) return(FALSE)
+  v <- sqrt(n)
+  m <- c(floor(v), ceiling(v))
+  any(m^2 == n)
+}
+
+is.cube <- function(n) {
+  check.1.integer(n)
+  v <- n^(1/3)
+  m <- c(floor(v), ceiling(v))
+  any(m^3 == n)
+}
+
+is.power <- function(n) {
+  check.1.integer(n)
+  tp <- table(primefactors(abs(n)))
+  if(length(tp) == 0) return(TRUE)
+  m <- Reduce(greatest.common.divisor, tp)
+  (m > 1) && ((n > 0) || any(primefactors(m) > 2))
+}

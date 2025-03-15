@@ -1,4 +1,21 @@
 
+        CHANGES IN spatstat.utils VERSION 3.1-3
+
+OVERVIEW
+
+    o Recognise powers of an integer.
+
+NEW FUNCTIONS
+
+    o is.square, is.cube, is.power
+    Recognise whether a given integer is a square number, a cube,
+    or a power of another integer.
+    
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o primefactors
+    Computation for large numbers improved.
+
         CHANGES IN spatstat.utils VERSION 3.1-2
 
 OVERVIEW

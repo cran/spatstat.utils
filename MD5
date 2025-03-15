@@ -1,10 +1,10 @@
-9a6fe1b7806a98e037595fffd48c3576 *DESCRIPTION
-49e8d9b02c24610b350138912e1bbb96 *NAMESPACE
-da64391e03ae5524c63f7f516b9a3da1 *NEWS
+740e7755f66c7722533c4d37ec6a81e9 *DESCRIPTION
+e683ca47f31b6a077f6c0a0898509842 *NAMESPACE
+c12e674a7f860f5de947a7c3c0881783 *NEWS
 f04059a4867357dc1aa6643ebd63cc7c *R/formulae.R
 22741343497bcf56a4aaac085d165748 *R/indices.R
 daf3d174ffc6aff02931654375d14e1a *R/locator.R
-0ca5fcc1d34f2ab73cb1107636e7d08e *R/primefactors.R
+6f2cb62669a0656a8123b71f251e2e0f *R/primefactors.R
 982d2f234cfcb7724dccea4f200c8aae *R/relevantValues.R
 2418e7c6d28b7d3f3137d26fcb5da2e8 *R/resolve.defaults.R
 3a14d20ebdfe2dda4d5fe24b87ea65ca *R/sysdata.rda
@@ -19,8 +19,8 @@ fa9f66757b4edab07677672cd52e92b9 *R/utilindex.R
 adeaa0d52d3c469e6de352b5703ae690 *R/xycircle.R
 417cbba809dc7ee0b1fd3471b67ec046 *R/xypolygon.R
 c631685bf13657b9143c5d4415a06947 *R/xysegment.R
-50835cfec080eb2076a1cd905c830b99 *inst/doc/packagesizes.txt
-50835cfec080eb2076a1cd905c830b99 *inst/info/packagesizes.txt
+df75836c42cb0feba733e3ab359f7237 *inst/doc/packagesizes.txt
+df75836c42cb0feba733e3ab359f7237 *inst/info/packagesizes.txt
 a94a5862e233cea120cbb46ca12dfc4a *man/RelevantNA.Rd
 14098b9b9ed8f3e10368ecbcd333e581 *man/articlebeforenumber.Rd
 1c2612c451d7c808eb03c574f17cb36a *man/cat.factor.Rd
@@ -40,7 +40,8 @@ f58e474d577c473353cce0ae06b28723 *man/evenly.spaced.Rd
 55303e4c5d5c1d883f60835490a69bf9 *man/geomseq.Rd
 182eb32aa402e349510fa8382a3ad656 *man/harmonicmean.Rd
 e410bcae4113c62d2e78d2e9b0fc9c7b *man/ifelseAB.Rd
-1ac6f0faf463fc5c6d189b778ea36fc3 *man/macros/defns.Rd
+b278122265057958fce8a26a45d52da4 *man/is.power.Rd
+86394a54d161a4823e3defc3a7180c9d *man/macros/defns.Rd
 e1b3328899cda3cac13bd40a1cc96bf3 *man/methods.xypolygon.Rd
 3d0f1e38d2215913c33112a50c0aa225 *man/optimizeWithTrace.Rd
 62c7bd9fdebd818885ed300aadb03cb5 *man/orderstats.Rd

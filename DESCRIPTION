@@ -1,6 +1,6 @@
 Package: spatstat.utils
-Version: 3.1-3
-Date: 2025-03-15
+Version: 3.1-4
+Date: 2025-05-15
 Title: Utility Functions for 'spatstat'
 Authors@R: c(person("Adrian", "Baddeley", 
                     role = c("aut", "cre"),
@@ -24,9 +24,10 @@ URL: http://spatstat.org/
 NeedsCompilation: yes
 ByteCompile: true
 BugReports: https://github.com/spatstat/spatstat.utils/issues
-Packaged: 2025-03-15 04:24:30 UTC; adrian
-Author: Adrian Baddeley [aut, cre] (<https://orcid.org/0000-0001-9499-8382>),
-  Rolf Turner [aut] (<https://orcid.org/0000-0001-5521-5218>),
-  Ege Rubak [aut] (<https://orcid.org/0000-0002-6675-533X>)
+Packaged: 2025-05-15 03:06:13 UTC; adrian
+Author: Adrian Baddeley [aut, cre] (ORCID:
+    <https://orcid.org/0000-0001-9499-8382>),
+  Rolf Turner [aut] (ORCID: <https://orcid.org/0000-0001-5521-5218>),
+  Ege Rubak [aut] (ORCID: <https://orcid.org/0000-0002-6675-533X>)
 Repository: CRAN
-Date/Publication: 2025-03-15 22:10:01 UTC
+Date/Publication: 2025-05-15 07:50:02 UTC

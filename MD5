@@ -1,6 +1,6 @@
-33208ed798d6245c0eb2cd5d25b8a55b *DESCRIPTION
-cf27cca7ecca5956d00dc7258fd1d7ca *NAMESPACE
-3641362b095caa194ddb158fbbc1ead6 *NEWS
+7cb172079bc9ae4614d7400d658dce4a *DESCRIPTION
+c11d9a37a59149cbb878dd7c4116f4c8 *NAMESPACE
+4237a14333f22f9ec9fd9c84134a9689 *NEWS
 f04059a4867357dc1aa6643ebd63cc7c *R/formulae.R
 22741343497bcf56a4aaac085d165748 *R/indices.R
 daf3d174ffc6aff02931654375d14e1a *R/locator.R
@@ -10,7 +10,7 @@ daf3d174ffc6aff02931654375d14e1a *R/locator.R
 3a14d20ebdfe2dda4d5fe24b87ea65ca *R/sysdata.rda
 4658a6316b23090a3fb3d81cff74c344 *R/taperoff.R
 8ec8ec22022975efaacf52c3a50749ee *R/tapplysum.R
-8b623aa075ce46a14d1033f00537b08d *R/utilarg.R
+b6a5efaa4cb5b3952cb82c467d0dd5e5 *R/utilarg.R
 fa9f66757b4edab07677672cd52e92b9 *R/utilindex.R
 36e59175448a3768b5921666ef74e6e6 *R/utilmatrix.R
 02c8640475ada283102b60dd8f057c12 *R/utiloptim.R
@@ -19,8 +19,8 @@ fa9f66757b4edab07677672cd52e92b9 *R/utilindex.R
 adeaa0d52d3c469e6de352b5703ae690 *R/xycircle.R
 417cbba809dc7ee0b1fd3471b67ec046 *R/xypolygon.R
 c631685bf13657b9143c5d4415a06947 *R/xysegment.R
-ed65c867292ccc15a2348c05e6601595 *inst/doc/packagesizes.txt
-ed65c867292ccc15a2348c05e6601595 *inst/info/packagesizes.txt
+cb59f4d21603cee3da04a11d61ba1820 *inst/doc/packagesizes.txt
+cb59f4d21603cee3da04a11d61ba1820 *inst/info/packagesizes.txt
 a94a5862e233cea120cbb46ca12dfc4a *man/RelevantNA.Rd
 14098b9b9ed8f3e10368ecbcd333e581 *man/articlebeforenumber.Rd
 1c2612c451d7c808eb03c574f17cb36a *man/cat.factor.Rd
@@ -41,7 +41,7 @@ f58e474d577c473353cce0ae06b28723 *man/evenly.spaced.Rd
 182eb32aa402e349510fa8382a3ad656 *man/harmonicmean.Rd
 e410bcae4113c62d2e78d2e9b0fc9c7b *man/ifelseAB.Rd
 b278122265057958fce8a26a45d52da4 *man/is.power.Rd
-86394a54d161a4823e3defc3a7180c9d *man/macros/defns.Rd
+c61de57ca5e2bb0ace233ab12460bd31 *man/macros/defns.Rd
 e1b3328899cda3cac13bd40a1cc96bf3 *man/methods.xypolygon.Rd
 3d0f1e38d2215913c33112a50c0aa225 *man/optimizeWithTrace.Rd
 62c7bd9fdebd818885ed300aadb03cb5 *man/orderstats.Rd
@@ -55,7 +55,7 @@ b43175c6f9485fbbada8a139728430fe *man/queueSpatstatLocator.Rd
 777dc7f9df370468156fd7c9deea2d6a *man/revcumsum.Rd
 6a72c33940fa00538b191d17f37172b0 *man/simplenumber.Rd
 eb9319c3dd1c3a356647a2ef1d605561 *man/spatstat.utils-deprecated.Rd
-8321e6a8db08bd6bc8222a36526a746c *man/spatstat.utils-internal.Rd
+b92159482d82a723ce388028369f4c2c *man/spatstat.utils-internal.Rd
 7d9c345f637717be85ab5b22652fada5 *man/spatstat.utils-package.Rd
 ccbb874753583114c82fdd1b97f896e2 *man/spatstatLocator.Rd
 ab7258a3b52edb9dc0be7166d511d812 *man/splat.Rd

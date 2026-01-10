@@ -3,7 +3,7 @@
 #'
 #'   Utilities for text output, etc
 #'
-#'   $Revision: 1.14 $ $Date: 2023/05/07 09:52:27 $
+#'   $Revision: 1.16 $ $Date: 2025/11/19 03:14:45 $
 #'
 
 # text magic

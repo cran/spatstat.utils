@@ -1,4 +1,15 @@
 
+        CHANGES IN spatstat.utils VERSION 3.2-1
+
+OVERVIEW
+
+    o Lagged difference of long vector.
+
+NEW FUNCTIONS
+
+    o difflong
+    Calculates diff() for a long vector.
+    
         CHANGES IN spatstat.utils VERSION 3.2-0
 
 OVERVIEW

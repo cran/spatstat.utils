@@ -3,7 +3,7 @@
 #'
 #'  Utilities for sequences, vectors, ranges of values
 #'
-#'       $Revision: 1.27 $ $Date: 2026/04/29 06:58:44 $
+#'       $Revision: 1.28 $ $Date: 2026/07/16 02:32:32 $
 #'
 #'  ==>>  ORIGINAL FILE is in spatstat/develop/Spatstat/R  <<==
 
@@ -73,7 +73,7 @@ as2vector <- function(x) {
     stop(paste(xname, "should consist of exactly one point"))
   }
   if(is.list(x) && all(c("x", "y") %in% names(x))) {
-    if(length(x$x) == 1 && length(x$y == 1))
+    if(length(x$x) == 1 && length(x$y) == 1)
       return(c(x$x, x$y))
     xname <- short.deparse(substitute(x))
     if(length(x$x) != 1) stop(paste0(xname, "$x should have length 1"))
